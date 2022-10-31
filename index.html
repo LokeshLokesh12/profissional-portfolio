@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>lokesh|developer</title>
   <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="media.css" />
   <script src="./index.js"></script>
   <!-- <link rel="stylesheet" href="media.css"> -->
   
@@ -31,9 +32,9 @@
   
   <header>
     <nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand d-flex" href="#">
-            <span class="dev-icon">
+      <div class="container d-block">
+        <a class="navbar-brand d-flex" href="#" >
+            <span class="dev-icon" id="dev-icon" onclick="opennavrit()">
                 <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
                 <lord-icon src="https://cdn.lordicon.com/jnlncdtk.json" trigger="hover"
                   colors="primary:#646e78,secondary:#ad6836,tertiary:#4faef9,quaternary:#f3c3ba,quinary:#e7e2eb" scale="60"
@@ -42,31 +43,27 @@
               </span>
               <h3 id="developer" >deve<sapn class="loper">loper</sapn></h3>
         </a>
-
-        <div class="nav-left">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="collapsibleNavId">
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0" >
-                <li class="nav-item">
-                    <a class="nav-link" href="#home" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">about</a>
-                </li>                
-                <li class="nav-item">
-                    <a class="nav-link" href="#service">service</a>
-                </li>                
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">contact</a>
-                </li>                
-            </ul>
+        
+        <div class="nav-right " id="nav-right">
+          <ul>
+            <li>
+              <a onclick="closenavrit()" href="#home">Home</a>
+            </li>
+            <li>
+              <a onclick="closenavrit()" href="#about">About</a>
+            </li>
+            <li>
+              <a onclick="closenavrit()" href="#service">Service</a>
+            </li>
+            <li>
+              <a onclick="closenavrit()" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        </div>
+      
      </div>
    </nav>
+
   </header>
   <main>
 
