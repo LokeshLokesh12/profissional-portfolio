@@ -8,6 +8,7 @@
 *{
     cursor: default;
 }
+/* header/navbar */
 header{
     position: fixed;
     width: 100%;
@@ -17,7 +18,14 @@ header{
     font-size: 1.5em;
     z-index: 99;
 }
-/* ------ try ---- */
+.navbar-nav{
+    gap: 25px;
+
+}
+.nav-item a{
+    cursor: pointer;
+}
+/* ------ navbar dropdown ---- */
 header .nav-right ul li a{
     list-style: none !important;
     text-decoration: none;
@@ -38,8 +46,8 @@ header .nav-right{
 header .nav-right ul li{
     margin: 15px 0 ;
 }
-/* ---- try ---- */
 
+/* ---- developer ---- */
 #developer{
     font-size: 1.5em;
     margin: 10px 0 0 10px;
@@ -52,19 +60,12 @@ header .nav-right ul li{
 .loper{
     color:#ff4500;
 }
-.navbar-nav{
-    gap: 25px;
-
-}
-.nav-item a{
-    cursor: pointer;
-}
 main{
     background-image: url(./images/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products.jpg);
-    /* height: 100vh; */
     width: 100%;
    
 }
+/* ---- home section ---- */
 .home{
     position: static;
     height: 100vh;
@@ -81,7 +82,6 @@ main{
     color: white;
     font-size: 4rem; 
     font-family: 'Mochiy Pop One', sans-serif; 
-    /* font-family: 'Press Start 2P', cursive; */
     caret-color: transparent;
 
 }
@@ -89,7 +89,6 @@ main{
 .home .down-button{
     color: #000;
     width: 800px;
-    /* font-family: ; */
     font-family: 'Press Start 2P', cursive;
     padding: 10px 20px;
     font-size: 20px;
@@ -105,16 +104,13 @@ main{
     cursor: pointer;
     caret-color: transparent;
 }
-/* .home .down-button:focus{
-    background-color: #000;
-    color:#fff;
-} */
+
 .home .down-button:active{
     background-color: #fff;
     color:#000;
     transition: 0.5ms ;
 }
-
+/* ---- about section ---- */
 #about{
     height: 100vh;
 }
