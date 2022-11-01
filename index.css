@@ -7,6 +7,10 @@
 
 *{
     cursor: default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 /* header/navbar */
 header{
@@ -67,7 +71,7 @@ main{
 }
 /* ---- home section ---- */
 .home{
-    position: static;
+    /* position: static; */
     height: 100vh;
     width: 100%;
     display: flex;
@@ -111,6 +115,6 @@ main{
     transition: 0.5ms ;
 }
 /* ---- about section ---- */
-#about{
+#about,#service,#contact{
     height: 100vh;
 }
