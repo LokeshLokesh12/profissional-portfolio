@@ -5,14 +5,74 @@
     #developer{
         font-size: 1rem;
     }
+    .about-container{
+        display: block;
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-right{
+        width: 100%;
+    }
+    .img-container-air,.img-container-zom{
+        height: 250px;
+        width: 450px;
+        margin: 30px 0px 30px -15px;
+        /* z-index: 1; */
+    }
+    .img-container-air::before {
+        height: 250px;
+        width: 450px;
+    }
+    .img-container-zom::before {
+        height: 250px;
+        width: 450px;
+      
+    
+    }
 }
 @media only screen and (max-width:450px){
     /* #developer{
         font-size: 0.5rem;
     } */
+    .img-container-air,.img-container-zom{
+        height: 150px;
+        width: 350px;
+        margin: 30px 0px 0 -15px;
+        /* z-index: 1; */
+    }
+    .img-container-air::before {
+        height: 150px;
+        width: 350px;
+    }
+    .img-container-zom::before {
+        height: 150px;
+        width: 350px;
+      
+    
+    }
 }
 @media only screen and (max-width:375px){
     #developer{
         display: none;
+    }
+}
+@media only screen and (max-width:300px){
+    
+    .img-container-air,.img-container-zom{
+        height: 100px;
+        width: 200px;
+        margin: 30px 0px 0 -15px;
+        /* z-index: 1; */
+    }
+    .img-container-air::before {
+        height: 100px;
+        width: 200px;
+    }
+    .img-container-zom::before {
+        height: 100px;
+        width: 200px;
+      
+    
     }
 }
