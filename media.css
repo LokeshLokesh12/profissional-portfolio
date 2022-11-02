@@ -38,7 +38,7 @@
     .img-container-air,.img-container-zom{
         height: 150px;
         width: 350px;
-        margin: 30px 0px 0 -15px;
+        margin: 30px 0px 0 0px;
         /* z-index: 1; */
     }
     .img-container-air::before {
@@ -62,7 +62,7 @@
     .img-container-air,.img-container-zom{
         height: 100px;
         width: 200px;
-        margin: 30px 0px 0 -15px;
+        margin: 30px 0px 0 0px;
         /* z-index: 1; */
     }
     .img-container-air::before {
