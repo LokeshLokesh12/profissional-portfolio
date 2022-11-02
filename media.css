@@ -17,7 +17,7 @@
     .img-container-air,.img-container-zom{
         height: 250px;
         width: 450px;
-        margin: 30px 0px 30px -15px;
+        margin: 30px 0px 30px 0px;
         /* z-index: 1; */
     }
     .img-container-air::before {

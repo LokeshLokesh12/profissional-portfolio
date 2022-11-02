@@ -134,14 +134,14 @@ main{
     transition: 0.5ms ;
 }
 /* ---- about section ---- */
-#about,#service,#contact{
+#service,#contact{
     height: 100vh;
     padding: 90px 0 0 0;
 }
-/* #about,#service,#contact{
+#about{
     height: auto;
     padding: 90px 0 0 30px;
-} */
+}
 .about-container{
     display: flex;
 }
