@@ -133,23 +133,18 @@ main{
     color:#000;
     transition: 0.5ms ;
 }
-/* ---- about section ---- */
+/* ---- ------ ------- ------ ---- */
+
 #service,#contact{
     height: 100vh;
     padding: 90px 0 0 0;
 }
+/* ---- ------ ------- ------ ---- */
+
+/* ---- about section ---- */
+/* about top section */
 #about{
-    height: auto;
-    padding: 90px 0 0 30px;
-}
-.about-container{
-    display: flex;
-}
-.about-left{
-    width: 50%;
-}
-.about-right{
-    width: 50%;
+    padding: 90px 0 0 0px;
 }
 .about-left-heading h1{
     font-family: 'Mochiy Pop One', sans-serif; 
@@ -161,99 +156,33 @@ main{
 .skill h4{
     font-family: 'Times New Roman', Times, serif;
 }
-.skill-ul li{
-    font-family: 'Courier New', Courier, monospace;
-    list-style:inside;
+.skill-p p{
+    margin-left: 40px;
     color:azure;
+    font-family: 'Courier New', Courier, monospace;
+
 }
+
 .skill-heading{
     font-weight:bolder  ;
 }
-.coding-skill ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.coding-skill h4{
-    font-family: 'Times New Roman', Times, serif;
-    display: block;
-}
-.coding-skill ul{
-    list-style: none;
-    margin: 5px 0 0 0;
-    perspective: 100px;
-
-}
+/* about bottom section */
 .about-right-container h1{
     font-family: 'Press Start 2P', cursive;
 }
-.airtel-project a,
-.zomato-project a{
-    width: fit-content;
-}
-.img-container-air,.img-container-zom{
-    height: 250px;
-    width: 600px;
-    margin: 30px 10px;
-    /* z-index: 1; */
-    transition: 2s;
-    filter: drop-shadow(2px 2px 10px #fff);
-
-}
-.img-container-air img,.img-container-zom img{
-    height: 100%;
+.about-right-container{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    object-fit: fill;
-    box-shadow: inset (5% 5% 10% #000);
-    border-radius: 10px; 
-    /* transition: 1s; */
-
+    justify-content: space-around;
+  
 }
-
-
-.img-container-air::before {
-    content: "Airtel-Clone";
-    font-family: 'Mochiy Pop One', sans-serif; 
-    display: flex;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    z-index: -1;
-    position: absolute;
-    background-color: gray;
-    height: 250px;
-    width: 600px;
-    /* transition: 0.2s; */
-    border-radius: 10px; 
-}
-.img-container-zom::before {
-    content: "Zomato-HomePage";
-    font-family: 'Mochiy Pop One', sans-serif; 
-    display: flex;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    z-index: -1;
-    position: absolute;
-    background-color: gray;
-    height: 250px;
-    width: 600px;
-    border-radius: 10px; 
-    /* transition: 0.2s; */
-
-}
-.img-container-air:hover::before,.img-container-zom:hover::before{
-    /* opacity: 0.5; */
-    z-index: 2;
-    transition: 0.2s;
-
-
-}
-.img-container-air:hover,.img-container-zom:hover{
-    filter: drop-shadow(2px 2px 10px gray);
+.about-right-container img{
     
+    width: 30rem;
+    height: 300px;
+    margin: 30px 0;
+    border-radius: 5px;
 }
 .about-me h4{
     font-family: 'Times New Roman', Times, serif;

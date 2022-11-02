@@ -1,3 +1,8 @@
+@media only screen and (max-width:1024px) {
+    .about-right-container img{
+        width: 28rem;
+    }
+}
 @media only screen and (max-width:600px) {
     .home h1{
         font-size: 3rem; 
@@ -14,65 +19,26 @@
     .about-right{
         width: 100%;
     }
-    .img-container-air,.img-container-zom{
-        height: 250px;
-        width: 450px;
-        margin: 30px 0px 30px 0px;
-        /* z-index: 1; */
-    }
-    .img-container-air::before {
-        height: 250px;
-        width: 450px;
-    }
-    .img-container-zom::before {
-        height: 250px;
-        width: 450px;
-      
-    
+    .about-right-container img{
+        width: 25rem;
     }
 }
 @media only screen and (max-width:450px){
-    /* #developer{
-        font-size: 0.5rem;
-    } */
-    .img-container-air,.img-container-zom{
-        height: 150px;
-        width: 350px;
-        margin: 30px 0px 0 0px;
-        /* z-index: 1; */
-    }
-    .img-container-air::before {
-        height: 150px;
-        width: 350px;
-    }
-    .img-container-zom::before {
-        height: 150px;
-        width: 350px;
-      
     
-    }
+    
 }
+
+
 @media only screen and (max-width:375px){
     #developer{
         display: none;
     }
+   
 }
+
+
+
 @media only screen and (max-width:300px){
     
-    .img-container-air,.img-container-zom{
-        height: 100px;
-        width: 200px;
-        margin: 30px 0px 0 0px;
-        /* z-index: 1; */
-    }
-    .img-container-air::before {
-        height: 100px;
-        width: 200px;
-    }
-    .img-container-zom::before {
-        height: 100px;
-        width: 200px;
-      
-    
-    }
+  
 }
