@@ -9,18 +9,14 @@
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="media.css" />
   <script src="./index.js"></script>
-
+  <link rel="icon" href="https://th.bing.com/th/id/R.df4287b8cc3eb435edf19cd8e41a5487?rik=sSjXX5wNi6eCIQ&riu=http%3a%2f%2fgetdrawings.com%2ffree-icon%2fcool-avatar-icons-59.png&ehk=j9hO3GBb5g6W1SmBICkuZhimRrrWbaQhnTqLWykvpDY%3d&risl=&pid=ImgRaw&r=0">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/images.jpeg" />
 
 </head>
 
@@ -29,32 +25,34 @@
   <header>
     <nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
       <div class="container d-block">
-        <a class="navbar-brand d-flex" href="#">
+        <!-- <a class="navbar-brand d-flex" href="#"> -->
           <!-- developer icon -->
-          <span class="dev-icon" id="dev-icon" onclick="opennavrit()">
-            <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
-            <lord-icon src="https://cdn.lordicon.com/jnlncdtk.json" trigger="hover"
-              colors="primary:#646e78,secondary:#ad6836,tertiary:#4faef9,quaternary:#f3c3ba,quinary:#e7e2eb" scale="60"
-              axis-y="55" style="width:45px;height:45px;margin:-10px 0 0 0">
-            </lord-icon>
-          </span>
-          <h3 id="developer">deve<sapn class="loper">loper</sapn>
-          </h3>
-        </a>
+          <div class="header-text d-flex">
+            <span class="dev-icon" id="dev-icon" onclick="opennavrit()">
+              <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/jnlncdtk.json" trigger="hover"
+                colors="primary:#646e78,secondary:#ad6836,tertiary:#4faef9,quaternary:#f3c3ba,quinary:#e7e2eb" scale="60"
+                axis-y="55" style="width:45px;height:45px;margin:-10px 0 0 0">
+              </lord-icon>
+            </span>
+            <h3 id="developer">deve<sapn class="loper">loper</sapn>
+            </h3>
+          </div>
+        <!-- </a> -->
         <!-- dropdown navbar -->
         <div class="nav-right " id="nav-right">
           <ul>
             <li>
-              <a onclick="closenavrit()" href="#home">Home</a>
+              <a onclick="closenavrit()" href="#home" >Home</a>
             </li>
             <li>
-              <a onclick="closenavrit()" href="#about">About</a>
+              <a onclick="closenavrit()" href="#about" >About</a>
             </li>
+            <!-- <li>
+              <a onclick="closenavrit()" href="#Service" >Service</a>
+            </li> -->
             <li>
-              <a onclick="closenavrit()" href="#Service">Service</a>
-            </li>
-            <li>
-              <a onclick="closenavrit()" href="#contact">Contact</a>
+              <a onclick="closenavrit()" href="#contact" >Contact</a>
             </li>
           </ul>
         </div>
@@ -129,13 +127,13 @@
 
             <div class="airtel-project">
               <a href="https://lokeshlokesh12.github.io/Airtel-clone/" target="_blank">
-                <img class="about-img" src="./images/airtel-pic.png" alt="its take you to my project">
+                <img loading="lazy" class="about-img" src="./images/airtel-pic.png" alt="its take you to my project">
               </a>
             </div>
 
             <div class="zomato-project">
               <a href="https://lokeshlokesh12.github.io/zomato-homepage/" target="_blank">
-                <img class="about-img" src="./images/zomato-pic.png" alt="its take you to my project">
+                <img loading="lazy" class="about-img" src="./images/zomato-pic.png" alt="its take you to my project">
               </a>
             </div>
 
@@ -148,12 +146,14 @@
     <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
     <!-- service section -->
 
-    <div class="service" id="service">
+    <!-- <div class="service" id="service">
 
-    </div>
+    </div> -->
 
     <div class="contact" id="contact">
-
+      <div class="container">
+       
+      </div>
     </div>
 
   </main>
@@ -170,7 +170,7 @@
     crossorigin="anonymous"></script>
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/43a0dde7d3.js" crossorigin="anonymous"></script>
-
+  
 </body>
 
 </html>
